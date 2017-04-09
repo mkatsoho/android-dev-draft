@@ -36,6 +36,7 @@ android的java使用的类库和后台开发用到的类库差别很大。所以
 了解安卓控件，特性，类库。了解一下吧，android提供的控件和框架远远不够。
 
 开源类库 - https://github.com/Tim9Liu9/TimLiu-Android  
+
 开源类库 - https://github.com/Trinea/android-open-project
 
 
@@ -54,3 +55,10 @@ android的java使用的类库和后台开发用到的类库差别很大。所以
 如果通过推广获得用户，并发布到google play，就还要熟悉如何推广，如何提高排名，如何获得留存等统计信息。否则，可以忽略。
 
 
+## 如何和后端协同
+
+当需要crud数据的时候，可以通过http调用后端的api。典型方式，某一个用户依赖单数据中心的（或一写，多读），可以使用典型的方式：
+
+app -> dns -> get ip of the data center （1 writing center or 1 of reading certers) -> call api in backend -> API layer (backend, N * instance) -> business layer (backend, N * instance) -> storage (db or fs in backend, 1 db with throusand/10K partitions of one table ) 
+
+最典型的和后端http api 交互的做法 - Restful APIs https://www.tutorialspoint.com/restful/restful_introduction.htm
