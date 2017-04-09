@@ -14,6 +14,7 @@ android的java使用的类库和后台开发用到的类库差别很大。所以
 ## 开发工具
 
 目前（by Mar，2017）最流行的，也是效率比较高的IDE https://developer.android.com/studio/index.html
+最流行的，build／package工具是gradle
 
 
 ## 开发方式
@@ -23,15 +24,16 @@ android的java使用的类库和后台开发用到的类库差别很大。所以
 - 原始加html5: 大部分原始，里面嵌入少量的html5容器，例如小米商城（登录的一小部分是嵌入的html5）。（很多）
 - html5加壳：就是一个webview容器里面访问html5网站，外面加一个java 壳做成的app，（不推荐）
 
-## 开发过程
+## 开发过程 （针对原生开发）
 
-先看看这个教程，精炼（不过我没看过） - https://www.tutorialspoint.com/android/
+先看看这个教程，TP的教程都很精炼（不过我没看过） - https://www.tutorialspoint.com/android/
 
 
-### 了解安卓控件，特性，类库
+了解安卓控件，特性，类库
 
-开源类库 - https://github.com/Tim9Liu9/TimLiu-Android    https://github.com/Trinea/android-open-project
-控件 -
+开源类库 - https://github.com/Tim9Liu9/TimLiu-Android  
+开源类库 - https://github.com/Trinea/android-open-project
+控件 - 
 
 
 
@@ -54,5 +56,7 @@ android的java使用的类库和后台开发用到的类库差别很大。所以
 - webview是个双刃剑
 或者使用android的UI控件，尽量避免使用webview控件（是一个类似browser的html容器）
 
-- 
+- 如果要发布的话
+如果通过推广获得用户，并发布到google play，就还要熟悉如何推广，如何提高排名，如何获得留存等统计信息。否则，可以忽略。
+
 
