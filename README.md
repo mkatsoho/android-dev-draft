@@ -14,7 +14,8 @@ android的java使用的类库和后台开发用到的类库差别很大。所以
 ## 开发工具
 
 目前（by Mar，2017）最流行的，也是效率比较高的IDE https://developer.android.com/studio/index.html
-最流行的，build／package工具是gradle
+
+最流行的，build／package工具是gradle  https://gradle.org
 
 
 ## 开发方式
