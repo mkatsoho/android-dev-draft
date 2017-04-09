@@ -1,18 +1,34 @@
 # android-dev-draft
+
 外行安卓开发笔记
 
 
+## 概述
+
+可简可繁，可快可慢。读一下这个先。 https://www.zhihu.com/question/27069588
+
+android的java使用的类库和后台开发用到的类库差别很大。所以有后台java开发的人，绝不等于可以很容易的上手去开发android
+
+安卓的开发的套路不如ios，没有一个现成的1，2，3这样的步骤。所以不同人写的同一款应用，从代码角度讲可能差别很大。也可能会很烂。
+
 ## 开发工具
 
-目前（Mar，2017）最流行的，也是效率比较高的IDE https://developer.android.com/studio/index.html
+目前（by Mar，2017）最流行的，也是效率比较高的IDE https://developer.android.com/studio/index.html
 
+
+## 开发方式
+
+- 原生开发： 基于android java类库和控件来开发 （大部分）
+- 基于html5开发：例如（据说）今日头条的app，目前不多。（目前不多，但发展速度很快）
+- 原始加html5: 大部分原始，里面嵌入少量的html5容器，例如小米商城（登录的一小部分是嵌入的html5）。（很多）
+- html5加壳：就是一个webview容器里面访问html5网站，外面加一个java 壳做成的app，（不推荐）
 
 ## 开发过程
 
-安卓的开发的套路不如ios的开发，没有一个现成的1，2，3这样的步骤，
+
 
 了解安卓控件和特性： ？？？
-了解开发过程  
+了解开发过程： ？？？
 
 
 ## 开发难点
