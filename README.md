@@ -28,21 +28,13 @@ android的java使用的类库和后台开发用到的类库差别很大。所以
 
 先看看这个教程，TP的教程都很精炼（不过我没看过） - https://www.tutorialspoint.com/android/
 
+这个就只作为参考吧，google的教程很完整和很冗长 - https://developer.android.com/training/index.html
 
-了解安卓控件，特性，类库
+
+了解安卓控件，特性，类库。了解一下吧，android提供的控件和框架远远不够。
 
 开源类库 - https://github.com/Tim9Liu9/TimLiu-Android  
 开源类库 - https://github.com/Trinea/android-open-project
-控件 - 
-
-
-
-### 了解开发过程：
-
-
-太长了 - https://developer.android.com/studio/intro/index.html
-
-
 
 
 ## 开发难点
